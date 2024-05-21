@@ -118,7 +118,7 @@ void produce(void *arg)
 
 void consume(void *arg)
 {
-    while ((*(int *)arg)
+    while ((*(int *)arg))
     {
         sleep(1);
         pthread_mutex_lock(&mutex);
