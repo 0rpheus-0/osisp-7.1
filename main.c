@@ -218,16 +218,6 @@ int main()
     printf("Start program\n");
     while (scanf("%s", opt))
     {
-        // if (!strcmp(opt, "+"))
-        // {
-        //     //-----------------------------------------------//
-        //     printf("Queue: %d\n", ++queue);
-        // }
-        // if (!strcmp(opt, "-"))
-        // {
-        //     //-----------------------------------------------//
-        //     printf("Queue: %d\n", --queue);
-        // }
         if (!strcmp(opt, "p"))
             newProduce(buffer);
         if (!strcmp(opt, "kp"))
